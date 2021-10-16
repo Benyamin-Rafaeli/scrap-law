@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "1": "cypress open",
+    "2": "cypress run",
+    "3": "cypress open --browser electron"
+  },
+  "name": "scrap-law",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^8.6.0",
+    "prettier": "^2.4.1",
+    "typescript": "^4.4.4"
+  }
+}

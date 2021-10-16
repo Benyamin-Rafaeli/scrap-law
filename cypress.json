@@ -1,0 +1,16 @@
+{
+  "baseUrl": "https://main.knesset.gov.il/",
+  "viewportWidth": 1600,
+  "viewportHeight": 900,
+  "screenshotOnRunFailure": true,
+  "watchForFileChanges": false,
+  "chromeWebSecurity": false,
+  "failOnNetworkError": false,
+  "trashAssetsBeforeRuns": true,
+  "defaultCommandTimeout": 10000,
+  "nodeVersion": "system",
+  "retries": {
+    "runMode": 2,
+    "openMode": 0
+  }
+}

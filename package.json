@@ -1,5 +1,9 @@
 {
   "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
     "1": "cypress open",
     "2": "cypress run",
     "3": "cypress open --browser electron"
@@ -7,13 +11,25 @@
   "name": "scrap-law",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.6",
     "cypress": "^8.6.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "gravatar": "^1.8.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.11",
     "prettier": "^2.4.1",
+    "request": "^2.88.2",
     "typescript": "^4.4.4"
+  },
+  "devDependencies": {
+    "concurrently": "^6.3.0",
+    "nodemon": "^2.0.13"
   }
 }
